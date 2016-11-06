@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6" >
+    
+	<RelativeLayout 
+	    android:id="@+id/recording_title"
+        android:layout_width="fill_parent"
+    	android:layout_height="45dip" 
+    	android:background="@drawable/webviewtab_bg"
+        >
+
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/record"
+    		android:layout_centerVertical="true"
+    		android:layout_centerHorizontal="true"
+    		android:textSize="20sp"
+    		android:textColor="#fff"
+            />
+        <Button 
+            android:id="@+id/settings_back_btn"
+            android:layout_width="65dip"
+    		android:layout_height="wrap_content" 
+    		android:layout_centerVertical="true"
+    		android:layout_alignParentRight="true"
+    		android:layout_marginRight="7dip"
+    		android:text="@string/back"
+    		android:textColor="#fff"
+    		android:textSize="14sp"
+    		android:background="@drawable/title_right_back"
+            />
+    </RelativeLayout>
+    <TextView 
+        android:id="@+id/no_recording"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/recording_title"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="@string/norecord"
+        android:visibility="gone"
+        />
+	<ListView
+ 		android:id="@+id/record_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/recording_title"
+		android:cacheColorHint="#FFFFFFFF" 
+ 		android:dividerHeight="1dp"
+        android:divider="#34CCCCCC"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:fastScrollEnabled="false"
+        android:scrollbarStyle="outsideInset"
+        />
+	
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">风传</string>
+    <string name="file_title">选择要发送的文件</string>
+    <string name="file_path">当前路径：</string>
+    <string name="wifi_fail">请连接WIFI</string>
+    <string name="wifi_success">WIFI连接正常</string>
+	<string name="searchone">搜一个</string>
+	<string name="record">我的记录</string>
+	<string name="connection">我的连接</string>
+	<string name="sendfile">发送文件</string>
+	<string name="back">返回</string>
+	<string name="cancel">取消</string>
+	<string name="pause">暂停</string>
+	<string name="resume">继续</string>
+	<string name="img_description">这是图标</string>
+	<string name="norecord">无传输记录</string>
+	<string name="nofriend">无连接设备</string>
+	<string name="filefail">文件传输中断</string>
+	<string name="isexit">是否退出程序&#063;</string>
+	<string name="remind">风传提醒您</string>
+	<string name="sure">确定</string>
+	<string name="noback">当前路径已经是根目录，不存在上一级</string>
+	<string name="disconnect_transfering">正在传输文件，确定断开连接吗&#063;</string>
+	<string name="cannotsend_size">文件无法发送</string>
+	<string name="cannotsend_off">文件无法发送</string>
+	<string name="inputname">请输入名称</string>
+	<string name="revise_suc">修改成功</string>
+	<string name="revise_fail">修改失败</string>
+	<string name="rejectconnect">对方拒绝连接</string>
+	<string name="connect_suc">连接成功</string>
+	<string name="requestconnect">连接请求</string>
+	<string name="agree">同意</string>
+	<string name="refuse">拒绝</string>
+	<string name="connected">已连接</string>
+	<string name="requestconnecting">请求连接中 &#8230;</string>
+	<string name="deleterecord">确定删除该条记录&#063;</string>
+</resources>

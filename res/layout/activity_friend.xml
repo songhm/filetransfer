@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+     >
+   <RelativeLayout 
+        android:id="@+id/friend_title"
+        android:layout_width="fill_parent"
+    	android:layout_height="45dip" 
+    	android:background="@drawable/webviewtab_bg"
+        >
+
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/connection"
+    		android:layout_centerVertical="true"
+    		android:layout_centerHorizontal="true"
+    		android:textSize="20sp"
+    		android:textColor="#FFFFFF"
+            />
+        <Button 
+            android:id="@+id/friend_back_btn"
+            android:layout_width="65dip"
+    		android:layout_height="wrap_content" 
+    		android:layout_centerVertical="true"
+    		android:layout_alignParentLeft="true"
+    		android:layout_marginLeft="7dip"
+    		android:text="@string/back"
+    		android:textColor="#FFFFFF"
+    		android:textSize="14sp"
+    		android:background="@drawable/title_left_back"
+            />
+    </RelativeLayout>
+    <TextView 
+        android:id="@+id/no_friend"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/friend_title"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="@string/nofriend"
+        android:visibility="gone"
+        />
+    <ExpandableListView
+        android:id="@+id/friendlist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friend_title"
+        android:cacheColorHint="@android:color/transparent"
+        android:childDivider="#34CCCCCC"
+        android:divider="#34CCCCCC"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:scrollbars="none" >
+    </ExpandableListView>
+   
+</RelativeLayout>

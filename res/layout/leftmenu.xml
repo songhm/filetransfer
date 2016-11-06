@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+     >
+	<View 
+	    android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F0F3F6" />
+    <LinearLayout style="@style/wrap_layout" >
+        <!-- 上圆角-->
+        <LinearLayout style="@style/top_layout" android:id="@+id/nickname_layout">
+            <TextView style="@style/usertext" android:text="修改搜索名称" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        
+        <!-- 分割线 -->
+          <View style="@style/bg_line"/>
+          <!-- 无圆角-->
+       <LinearLayout style="@style/mid_layout" android:id="@+id/fileposition_layout">
+            <TextView style="@style/usertext" android:text="文件接收位置" />
+          	<ImageView style="@style/img_arrow"/>
+       </LinearLayout>
+       <View style="@style/bg_line"/>
+       <LinearLayout style="@style/mid_layout" android:id="@+id/request_layout">
+            <TextView style="@style/usertext" android:text="文件请求设置" />
+          	<ImageView style="@style/img_arrow"/>  	
+       </LinearLayout>
+       <View style="@style/bg_line"/>
+          <!-- 下圆角-->
+       <LinearLayout style="@style/bottom_layout" android:id="@+id/wifispot_layout">
+            <TextView style="@style/usertext" android:text="一键开启热点" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+             
+    </LinearLayout>
+
+    <LinearLayout style="@style/wrap_layout" >
+        <!-- 上圆角-->
+        <LinearLayout style="@style/top_layout" android:id="@+id/update_layout">
+            <TextView style="@style/usertext" android:text="软件升级" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        
+        <!-- 分割线 -->
+          <View style="@style/bg_line"/>
+          <!-- 无圆角-->
+       <LinearLayout style="@style/mid_layout" android:id="@+id/feedback_layout">
+            <TextView style="@style/usertext" android:text="意见反馈" />
+          	<ImageView style="@style/img_arrow"/>
+       </LinearLayout>
+       <View style="@style/bg_line"/>
+ 
+
+          <!-- 下圆角-->
+       <LinearLayout style="@style/bottom_layout" android:id="@+id/rateus_layout">
+            <TextView style="@style/usertext" android:text="一键评价" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+     <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout">
+        <LinearLayout style="@style/single_layout" android:id="@+id/aboutus_layout">
+            <TextView style="@style/usertext" android:text="关于我们"/>
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+</LinearLayout>
